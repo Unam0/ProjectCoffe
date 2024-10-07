@@ -1,3 +1,6 @@
+@import url('../styles/padrao.css');
+
+
 * {
     padding: 0;
     margin: 0;
@@ -21,8 +24,8 @@ section {
     height: 50px;
     width: 100%;
     padding: 0 50px;
-    background-color: #252525;
-    color: #fff;
+    background-color: var(--cor-primaria-background);
+    color: var(--cor-primaria);
     position: fixed;
 
 }
@@ -41,7 +44,7 @@ section {
 
 .cnt-menu a {
     text-decoration: none;
-    color: #fff;
+    color: var(--cor-primaria);
     transition: 0.5s;
 }
 
@@ -64,19 +67,19 @@ section {
 }
 
 .ctn-coffe h2 {
-    color: #fff;
+    color: var(--cor-primaria);
     font-size: 72px;
 }
 
 .ctn-coffe p {
-    color: #fff;
+    color: var(--cor-primaria);
     font-size: 22px;
 }
 
 .btn {
     padding: 10px 50px;
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid var(--cor-primaria);
+    color: var(--cor-primaria);
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 600;
@@ -85,8 +88,8 @@ section {
 }
 
 .btn:hover{
-    background-color: #fff;
-    color: #252525;
+    background-color: var(--cor-primaria);
+    color: var(--cor-primaria-background);
     cursor: pointer;
 }
 
@@ -131,7 +134,7 @@ section {
 
 
 .box-text {
-    background-color: gray;
+    background-color: #432d29;
     padding: 50px;
 }
 
@@ -140,20 +143,19 @@ section {
 }
 
 .btn-dark {
-    background-color: #fff;
-    border: 2px solid #252525;
-    color: #252525;
+    background-color: var(--cor-primaria);
+    border: 2px solid var(--cor-primaria-background);
+    color: var(--cor-primaria-background);
     transition: 0.6s;
 }
 
 .btn-dark:hover {
-    background-color: #252525;
-    color: #fff;
+    background-color: var(--cor-primaria-background);
+    color: var(--cor-primaria);
 }
 
 .contact {
     width: 600px;
-    /* esse margin deixa a coisa no meio  */
     margin: 0 auto; 
     padding: 50px;
 }
@@ -183,8 +185,8 @@ section {
 
 
 footer {
-    background-color: #252525;
+    background-color: var(--cor-primaria-background);
     text-align: center;
-    color: #fff;
+    color: var(--cor-primaria);
     padding: 20px 0;
 }
